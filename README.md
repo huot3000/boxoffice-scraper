@@ -1,2 +1,2 @@
-# Box Office Scraper
+# Box-Office Scraper
 Simple box-office scraper script.
