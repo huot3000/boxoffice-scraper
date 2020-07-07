@@ -4,6 +4,7 @@
 
 import datetime
 import requests
+import pandas as pd
 from requests_html import HTML
 
 now = datetime.datetime.now()
