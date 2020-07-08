@@ -11,6 +11,9 @@ from requests_html import HTML
 
 BASE_DIR = os.path.dirname(__file__)
 
+now = datetime.datetime.now()
+start_year = now.year
+
 def url_to_txt(url, filename='world.html', save=False):
     r = requests.get(url)
     if r.status_code == 200:
